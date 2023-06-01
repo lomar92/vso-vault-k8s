@@ -8,4 +8,3 @@ helm repo update
 helm search repo hashicorp/vault -l
 
 helm install vault hashicorp/vault --values vault-helm-values.yaml
-k delete sa vault 
